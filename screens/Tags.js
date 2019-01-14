@@ -80,7 +80,7 @@ export default class App extends React.Component {
       images: [],
       isLoading: true
     }, () => {
-      this.loadImages(0)
+      this.loadImages(0, this.state.tag)
     })
   }
 
